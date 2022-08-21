@@ -6,16 +6,16 @@ tryit.addEventListener("click", clickeed);
 tryit.addEventListener("mouseover", mouseovered);
 tryit.addEventListener("mouseout", mouseouted);
 
-function clickeed(){
-    demodisplay.innerHTML = `Clicked !`;
+function clickeed() {
+    demodisplay.innerHTML += `Clicked ! <br> `;
 }
 
-function mouseovered(){
-    demodisplay.innerHTML = `   Mouse over !`;
+function mouseovered() {
+    demodisplay.innerHTML += `   Mouse over ! <br>`;
 }
 
-function mouseouted(){
-    demodisplay.innerHTML = `Mouse out !`;
+function mouseouted() {
+    demodisplay.innerHTML += `Mouse out ! <br>`;
 }
 
 
